@@ -19,45 +19,6 @@ body {
   margin-top: 100px;
 }
 
-.card-section {
-  border: 2px solid black;
-  border-radius: 10px;
-  background-color: white;
-  color: black;
-  text-align: center;
-  padding: 5px 20px 5px;
-  margin: 10px 20px 90px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-content: space-between;
-  position: relative;
-}
-
-.bookmark {
-  width: 40px;
-  height: 35px;
-  position: absolute;
-  top: -12px;
-  right: 10px;
-}
-#tag p {
-  font-size: small;
-  border: 1px solid black;
-  border-radius: 2px;
-  background-color: rgb(150, 182, 239);
-  margin-bottom: 5px;
-  margin-top: 10px;
-  height: auto;
-  padding: 1px;
-  display: inline;
-  float: left;
-  position: relative;
-  left: 0%;
-  margin-left: 0;
-  margin-right: 5px;
-}
-
 .main-footer {
   border: 2px solid black;
   border-radius: 10px;
