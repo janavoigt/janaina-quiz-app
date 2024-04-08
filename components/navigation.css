@@ -1,0 +1,12 @@
+.footer-nav {
+  align-content: center;
+  margin: 10px auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-nav img {
+  align-items: center;
+  width: 45px;
+}
