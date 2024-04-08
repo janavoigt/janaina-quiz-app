@@ -36,6 +36,7 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
 .footer-nav img {
   align-items: center;
   width: 45px;
