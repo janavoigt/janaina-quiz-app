@@ -42,16 +42,41 @@ body {
   margin: 20px;
 }
 .card-profile img {
-  border-radius: 50%;
-  max-width: 70%;
+  border-radius: 10%;
+  max-width: 40%;
   height: auto;
-  margin-left: 50px;
-  margin-top: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: relative;
 }
 
 .card-profile h2 {
-  text-align: center;
+  font-size: 1.2em;
+  position: relative;
+  top: -60px;
+  right: 25px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  align-content: end;
   text-transform: uppercase;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.article-profile-tittle {
+  position: relative;
+  top: -10px;
+  margin: 0 10px 10px;
+  padding: 2px;
+  text-align: start;
+}
+.article-profile p {
+  margin: 10px;
+}
+
+.picture-question {
+  width: 20%;
+  margin: 0 0 50px 10x;
+  padding: 0;
 }
