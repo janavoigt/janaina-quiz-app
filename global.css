@@ -74,3 +74,9 @@ body {
 .article-profile p {
   margin: 10px;
 }
+
+.picture-question {
+  width: 20%;
+  margin: 0 0 50px 10x;
+  padding: 0;
+}
