@@ -77,10 +77,24 @@ body {
   margin: 10px;
 }
 
-.question {
+.button-question {
   width: 20%;
+  height: auto;
   margin: 0 0 50px 10x;
   padding: 0;
+  display: flex;
+  left: 20%;
+  position: relative;
+}
+.button-bookmark {
+  width: 16%;
+  height: auto;
+  margin-bottom: 50px;
+  padding: 0;
+  display: flex;
+  position: relative;
+  left: 60%;
+  bottom: 53px;
 }
 
 @media (min-width: 600px) {
