@@ -10,7 +10,9 @@ body {
       rgba(88, 85, 85, 0.5)
     ),
     url(./imgs/friends.jpeg);
-
+  margin: 0%;
+  background-position: absolute;
+  background-size: auto;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -105,6 +107,25 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+}
+
+.question-card-title,
+.answer-card-title,
+.tag-input-title {
+  font-size: larger;
+  display: flex;
+  padding-bottom: 15px;
+}
+.tag-input {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  flex-direction: column;
+}
+#tag-input {
+  width: 100%;
+  padding: 2px;
 }
 
 @media (min-width: 600px) {
