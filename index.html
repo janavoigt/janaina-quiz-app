@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <script src="./js/index.js" defer></script>
     <title>Project 1</title>
   </head>
   <body>
@@ -16,13 +17,16 @@
           src="./resources/bookmark_transparent.png"
           alt="bookmark-select1"
           class="bookmark"
+          data-js="bookmark-button"
         />
         <h2 class="card-title">
           What is the name of the coffee shop where the Friends gang frequently
           hangs out?
         </h2>
-        <button class="card-button">Show Answer</button>
-        <p hidden>Central Perk</p>
+        <button class="card-button" data-js="card-button__answer">
+          Show Answer
+        </button>
+        <p hidden data-js="card-answer">Central Perk</p>
         <div id="tag">
           <p>#friends</p>
           <p>#tvseries</p>
