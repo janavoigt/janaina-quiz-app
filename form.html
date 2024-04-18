@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form to add new cards</title>
+  </head>
+  <body>
+    <header>
+      <h1>Friends Quiz</h1>
+    </header>
+    <main class="main-content">
+      <section class="card-profile">
+        <form class="form-card" data-js="form">
+          <label for="question-card">Your Question</label>
+          <textarea
+            name="question-card"
+            id="question-card"
+            rows="5"
+            cols="50"
+            minlength="0"
+            maxlength="150"
+          ></textarea>
+
+          <label for="answer-card">Your Answer</label>
+          <textarea
+            name="answer-card"
+            id="answer-card"
+            rows="5"
+            cols="50"
+            minlength="0"
+            maxlength="150"
+            required
+          ></textarea>
+
+          <label for="tag-input">Tag:</label>
+          <input
+            type="text"
+            name="tag-input"
+            id="tag-input"
+            placeholder="Your Tag"
+            minlength="5"
+            maxlength="30"
+            required
+          />
+          <button type="submit">SUMIT</button>
+        </form>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <nav class="footer-nav">
+        <a href="./index.html" alt="home-page">
+          <img src="./resources/home.png" alt="Home-Page" />
+        </a>
+        <a href="./bookmark.html">
+          <img src="./resources/bookmark.png" alt="bookmark-page" />
+        </a>
+        <a href="./form.html">
+          <img src="./resources/add_filled.png" alt="form-page" />
+        </a>
+        <a href="./profile.html"
+          ><img src="./resources/profile.png" alt="profile-page"
+        /></a>
+      </nav>
+    </footer>
+  </body>
+</html>
