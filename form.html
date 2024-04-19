@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./js/form.js" defer></script>
+    <title>Form to add new cards</title>
+  </head>
+  <body>
+    <header>
+      <h1>Friends Quiz</h1>
+    </header>
+    <main class="main-content">
+      <section class="card-profile">
+        <form class="form-card" data-js="form">
+          <div>
+            <label for="question-card" class="question-card-title"
+              ><b>Your Question:</b></label
+            >
+            <textarea
+              name="question-card"
+              id="question-card"
+              data-js="question-card"
+              rows="7"
+              cols="50"
+              minlength="1"
+              maxlength="150"
+            ></textarea>
+            <p data-js="question-card-characters-left">150 charactes left</p>
+          </div>
+          <div>
+            <label for="answer-card" class="answer-card-title"
+              ><b>Your Answer:</b></label
+            >
+            <textarea
+              name="answer-card"
+              id="answer-card"
+              data-js="answer-card"
+              rows="7"
+              cols="50"
+              minlength="1"
+              maxlength="150"
+              required
+            ></textarea>
+            <p data-js="answer-card-characters-left">150 charactes left</p>
+          </div>
+          <div class="tag-input">
+            <label for="tag-input" class="tag-input-title"><b>Tag:</b></label>
+            <input
+              type="text"
+              name="tag-input"
+              id="tag-input"
+              placeholder="Your Tag"
+              minlength="3"
+              maxlength="30"
+              required
+            />
+          </div>
+          <button type="submit" class="card-button">SUBMIT</button>
+        </form>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <nav class="footer-nav">
+        <a href="./index.html" alt="home-page">
+          <img src="./resources/home.png" alt="Home-Page" />
+        </a>
+        <a href="./bookmark.html">
+          <img src="./resources/bookmark.png" alt="bookmark-page" />
+        </a>
+        <a href="./form.html">
+          <img src="./resources/add_filled.png" alt="form-page" />
+        </a>
+        <a href="./profile.html"
+          ><img src="./resources/profile.png" alt="profile-page"
+        /></a>
+      </nav>
+    </footer>
+  </body>
+</html>
